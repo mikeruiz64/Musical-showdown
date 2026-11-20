@@ -12,6 +12,23 @@
 
 ---
 
+## 2026-11-20 — assetlinks.json publicado en mikeruiz64.github.io
+
+**Qué se hizo:** el usuario creó el repositorio público `mikeruiz64.github.io` y se le subió
+`.well-known/assetlinks.json` (copia de `docs/assetlinks.json`) y `.nojekyll` (sin él, GitHub Pages no publica carpetas
+que empiezan con punto). Así Android puede abrir el enlace de Vincular directo en la app. La Play Console y la cuenta
+`maxy26` quedan para el usuario (necesitan su inicio de sesión).
+
+**Archivos:** repositorio aparte `mikeruiz64/mikeruiz64.github.io`; aquí, `PENDIENTES.md`, `ESTADO.md`,
+`AUDITORIA-CAMBIOS.md`.
+
+**Verificación:** `https://mikeruiz64.github.io/.well-known/assetlinks.json` responde 200 y el verificador de Google
+(`digitalassetlinks.googleapis.com`) lo lee con el paquete `com.musicalshowdown.app` y la huella `E0:E0:A0:2F…`.
+
+**Abierto:** probar en un celular con la 1.33 que la cámara abra la app con el QR; Play Console y cuenta `maxy26`.
+
+---
+
 ## 2026-11-19 — Versión 1.33 publicada: direcciones a mikeruiz64
 
 **Qué se hizo:** el usuario dijo «publica». `npm run android:release` (versionCode 33 → 34, versionName 1.33; firma

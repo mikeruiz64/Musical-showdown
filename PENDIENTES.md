@@ -333,9 +333,10 @@ cambio, se aplica a las tres apps y se pasa a la siguiente.
   `https://mikeruiz64.github.io/Musical-showdown/privacidad/` (y la de términos, `.../privacidad/#parte-2`).
 - [ ] **Proteger `maxy26`:** crear una segunda cuenta gratis de GitHub con el usuario `maxy26` y dejarla vacía, para que
   nadie pueda suplantar los avisos de versión de las 1.32 que siguen instaladas (leen `api.github.com/repos/maxy26/...`).
-- [ ] **Enlace que abre la app (App Links):** crear el repositorio público **`mikeruiz64.github.io`** con
-  `.well-known/assetlinks.json` (copia de `docs/assetlinks.json`). Se crea con el OK del usuario; detalle en la
-  tarea del QR de «Diseño / implementación pendiente».
+- [x] **Enlace que abre la app (App Links)** (20-11-2026): el usuario creó el repositorio público
+  **`mikeruiz64.github.io`** y se subió `.well-known/assetlinks.json` (copia de `docs/assetlinks.json`) con `.nojekyll`
+  (si no, GitHub Pages no publica carpetas que empiezan con punto). El verificador de Google
+  (`digitalassetlinks.googleapis.com`) ya lo lee con la huella de la clave del proyecto.
 
 ## 🎵 Canciones y letras (antes de publicar)
 
@@ -725,10 +726,10 @@ cambio, se aplica a las tres apps y se pasa a la siguiente.
     si conviene otro dominio. La app ya está preparada
     (`AndroidManifest.xml`, `docs/vincular/`, `docs/assetlinks.json`). Falta
     publicar en GitHub, con el OK del usuario:
-    1. Activar **GitHub Pages** en el repositorio (Settings → Pages → rama
+    1. ✅ (ya activo: sirve `mikeruiz64.github.io/Musical-showdown/`) Activar **GitHub Pages** en el repositorio (Settings → Pages → rama
        `main`, carpeta `/docs`): así, sin la app instalada, se abre la página
        que lleva a descargarla.
-    2. Crear el repositorio público **`mikeruiz64.github.io`** con el archivo
+    2. ✅ (20-11-2026) Crear el repositorio público **`mikeruiz64.github.io`** con el archivo
        `.well-known/assetlinks.json` (copia de `docs/assetlinks.json`, con la
        huella de la clave del proyecto). Sin él, Android abre el enlace en el
        navegador en vez de la app. Funciona sin internet una vez que Android

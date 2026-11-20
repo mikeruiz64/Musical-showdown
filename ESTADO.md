@@ -176,8 +176,9 @@ usuario antes de publicar.
   - etapa 3: Android TV;
   - etapa 4: PC como control de la TV;
   - vinculación por internet con servidor.
-- **Que la cámara del celular abra la app con el QR:** cuando esté en Play
-  Store, con `assetlinks.json`.
+- **Que la cámara del celular abra la app con el QR:** `assetlinks.json` ya
+  está publicado en `mikeruiz64.github.io` (20-11-2026); falta probarlo en un
+  celular con la 1.33 instalada.
 - **Instalar sin el aviso de "app no segura"** (llega al publicar en las
   tiendas).
 
