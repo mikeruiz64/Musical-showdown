@@ -81,7 +81,7 @@ test("aviso de versión: el de la notificación tiene el mismo id que el de la c
   const deNotificacion = avisoDeVersion({ tag: "v1.19", fecha: "2026-10-12T05:00:00Z" });
   assert.equal(deNotificacion.id, deGitHub.id);
   assert.equal(deNotificacion.titulo, "Versión 1.19 disponible");
-  assert.equal(deNotificacion.boton.url, "https://github.com/maxy26/Musical-showdown/releases/tag/v1.19");
+  assert.equal(deNotificacion.boton.url, "https://github.com/mikeruiz64/Musical-showdown/releases/tag/v1.19");
 });
 
 test("avisoRecibido: lee el aviso que trae la notificación y descarta lo que no sirve", () => {

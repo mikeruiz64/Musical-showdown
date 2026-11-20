@@ -12,6 +12,24 @@
 
 ---
 
+## 2026-11-19 — Cambio de usuario de GitHub: maxy26 → mikeruiz64
+
+**Qué se hizo:** la cuenta de GitHub pasó de `maxy26` a `mikeruiz64`. GitHub redirige los repos, pero **no** GitHub
+Pages: `maxy26.github.io` dejó de servir la privacidad, los términos y la página de vincular. Se cambió la dirección en el
+código, las pruebas, las páginas de `docs/`, el `AndroidManifest.xml` (enlace de vincular) y los documentos de tiendas.
+
+**Archivos:** `src/js/avisos.js`, `src/js/vinculo.js`, `src/js/plataforma.js`, `src/js/compartir.js`,
+`test/{avisos,compartir,legal,vinculo}.test.js`, `docs/{privacidad,privacy,vincular}/index.html`,
+`platforms/android/android/app/src/main/AndroidManifest.xml`, `GOOGLE-PLAY.md`, `TIENDAS.md`, `ESTADO.md`.
+
+**Verificación:** `npm test` (177/177) y `eslint` sin errores. No se publicó versión nueva.
+
+**Abierto:** publicar una versión nueva (las 1.32 instaladas siguen apuntando a `maxy26.github.io` para privacidad y
+vincular), cambiar la URL de privacidad en la Play Console si ya se cargó, y comprobar que GitHub Pages sirva en
+`mikeruiz64.github.io/Musical-showdown/`.
+
+---
+
 ## 2026-10-31 — Versión 1.32 publicada
 
 **Qué se hizo («actualiza y publica»):** `npm run android:release` (versionCode 32 → 33, versionName 1.32, firma con la

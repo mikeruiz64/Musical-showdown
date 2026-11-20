@@ -14,8 +14,8 @@
 import { tiendaActual } from "./tienda.js";
 import { esDemo } from "./edicion.js";
 
-export const URL_VERSIONES = "https://api.github.com/repos/maxy26/Musical-showdown/releases?per_page=5";
-export const URL_AVISOS = "https://raw.githubusercontent.com/maxy26/Musical-showdown/main/avisos/avisos.json";
+export const URL_VERSIONES = "https://api.github.com/repos/mikeruiz64/Musical-showdown/releases?per_page=5";
+export const URL_AVISOS = "https://raw.githubusercontent.com/mikeruiz64/Musical-showdown/main/avisos/avisos.json";
 const CLAVE_GUARDADOS = "musical-showdown:avisos";
 const CLAVE_LEIDOS = "musical-showdown:avisos-leidos";
 const CLAVE_RECIBIDOS = "musical-showdown:avisos-recibidos"; // [{ aviso, recibido }] (ver agregarAvisoRecibido)
@@ -72,7 +72,7 @@ export function avisoDeVersion({ tag, fecha, texto, url, tienda = tiendaActual()
     // Instalado desde una tienda: la actualización se baja de la tienda (tienda.js)
     boton: tienda
       ? { texto: `🛍️ Abrir la ${tienda.nombre}`, url: tienda.enlace }
-      : { texto: "⬇️ Descargar", url: url || `https://github.com/maxy26/Musical-showdown/releases/tag/${tag}` },
+      : { texto: "⬇️ Descargar", url: url || `https://github.com/mikeruiz64/Musical-showdown/releases/tag/${tag}` },
     importante: true, // las actualizaciones siempre son importantes (salen fuera de la app)
   };
 }

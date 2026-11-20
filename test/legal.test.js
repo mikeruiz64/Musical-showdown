@@ -9,11 +9,11 @@ import { paginaLegal } from "../src/js/plataforma.js";
 const leer = (ruta) => readFileSync(new URL(`../docs/${ruta}/index.html`, import.meta.url), "utf8");
 
 test("Ajustes abre la página en el idioma del dispositivo", () => {
-  assert.equal(paginaLegal("", "es-CO"), "https://maxy26.github.io/Musical-showdown/privacidad/");
-  assert.equal(paginaLegal("parte-2", "es"), "https://maxy26.github.io/Musical-showdown/privacidad/#parte-2");
-  assert.equal(paginaLegal("", "en-US"), "https://maxy26.github.io/Musical-showdown/privacy/");
-  assert.equal(paginaLegal("parte-2", "pt-BR"), "https://maxy26.github.io/Musical-showdown/privacy/#parte-2");
-  assert.equal(paginaLegal("", ""), "https://maxy26.github.io/Musical-showdown/privacidad/");
+  assert.equal(paginaLegal("", "es-CO"), "https://mikeruiz64.github.io/Musical-showdown/privacidad/");
+  assert.equal(paginaLegal("parte-2", "es"), "https://mikeruiz64.github.io/Musical-showdown/privacidad/#parte-2");
+  assert.equal(paginaLegal("", "en-US"), "https://mikeruiz64.github.io/Musical-showdown/privacy/");
+  assert.equal(paginaLegal("parte-2", "pt-BR"), "https://mikeruiz64.github.io/Musical-showdown/privacy/#parte-2");
+  assert.equal(paginaLegal("", ""), "https://mikeruiz64.github.io/Musical-showdown/privacidad/");
 });
 
 test("la página en español y la inglesa tienen las mismas secciones, enlaces y fecha", () => {

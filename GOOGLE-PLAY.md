@@ -21,8 +21,8 @@
 | Tipo | Juego, categoría Música (o Trivia / Fiesta, la que Play ofrezca) |
 | Gratis o de pago | Gratis (con suscripción Premium opcional) |
 | Correo de contacto | showdownmusical@gmail.com |
-| Política de privacidad | https://maxy26.github.io/Musical-showdown/privacidad/ |
-| Términos de uso | https://maxy26.github.io/Musical-showdown/privacidad/#parte-2 |
+| Política de privacidad | https://mikeruiz64.github.io/Musical-showdown/privacidad/ |
+| Términos de uso | https://mikeruiz64.github.io/Musical-showdown/privacidad/#parte-2 |
 | País del desarrollador | Colombia (provisional; nombre del estudio pendiente) |
 
 ## 1. Contenido de la app (App content)

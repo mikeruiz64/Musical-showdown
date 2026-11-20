@@ -30,7 +30,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="https" android:host="maxy26.github.io" android:pathPrefix="/Musical-showdown/vincular" />
+                <data android:scheme="https" android:host="mikeruiz64.github.io" android:pathPrefix="/Musical-showdown/vincular" />
             </intent-filter>
 
         </activity>

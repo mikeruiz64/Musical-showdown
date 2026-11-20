@@ -7,7 +7,7 @@ test("el nombre de la imagen lleva fecha y hora (no pisa una anterior)", () => {
 });
 
 test("el texto para compartir lleva el enlace de descargas de GitHub", () => {
-  assert.equal(ENLACE_DESCARGA, "https://github.com/maxy26/Musical-showdown/releases");
+  assert.equal(ENLACE_DESCARGA, "https://github.com/mikeruiz64/Musical-showdown/releases");
   assert.ok(TEXTO_COMPARTIR.includes(ENLACE_DESCARGA));
 });
 

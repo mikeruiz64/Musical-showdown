@@ -48,7 +48,7 @@ export const VIGENCIA_CODIGO = 60_000;
  * (AndroidManifest.xml); si no, se abre la página docs/vincular/ de GitHub
  * Pages, que lleva a abrirla o a descargarla.
  */
-export const ENLACE_VINCULAR = "https://maxy26.github.io/Musical-showdown/vincular/";
+export const ENLACE_VINCULAR = "https://mikeruiz64.github.io/Musical-showdown/vincular/";
 
 // ---------- Códigos y QR ----------
 

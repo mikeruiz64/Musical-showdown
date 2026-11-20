@@ -13,8 +13,8 @@
 | Nombre | Musical Showdown |
 | Desarrollador | Musical Showdown (cuenta individual; el nombre del estudio y su país definitivo están pendientes, provisional: Colombia) |
 | Correo de contacto | showdownmusical@gmail.com |
-| Política de privacidad | https://maxy26.github.io/Musical-showdown/privacidad/ |
-| Términos de uso | La misma página (Parte II: https://maxy26.github.io/Musical-showdown/privacidad/#parte-2) |
+| Política de privacidad | https://mikeruiz64.github.io/Musical-showdown/privacidad/ |
+| Términos de uso | La misma página (Parte II: https://mikeruiz64.github.io/Musical-showdown/privacidad/#parte-2) |
 | Categoría | Juegos → Música (Galaxy: "Juegos / Música"; Microsoft: "Juegos > Música") |
 | Clasificación por edad | La da el cuestionario (ver abajo): sin violencia ni chat; **con compras** (Premium) y, cuando AdMob esté activo, **con anuncios** en la versión gratis de Android |
 | Público objetivo | Adolescentes y adultos (no dirigido a menores de 13 años; usuario, 27-10-2026) |

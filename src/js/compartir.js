@@ -22,7 +22,7 @@ import { dibujarIcono } from "./iconosEmoji.js";
 // Desde una tienda, el enlace es el de la tienda (tienda.js). La demo de la Store
 // no manda a descargar por fuera: sin su Store ID no lleva enlace (usuario, 21-10-2026).
 const SIN_ENLACE = esDemo() && !tiendaActual();
-export const ENLACE_DESCARGA = SIN_ENLACE ? "" : tiendaActual()?.enlace || "https://github.com/maxy26/Musical-showdown/releases";
+export const ENLACE_DESCARGA = SIN_ENLACE ? "" : tiendaActual()?.enlace || "https://github.com/mikeruiz64/Musical-showdown/releases";
 /** Última línea del texto compartido; sin enlace, dónde buscar el juego. */
 export function lineaDeDescarga(enlace) {
   return enlace ? `Descárgalo gratis: ${enlace}` : "Búscalo gratis en la Microsoft Store";
@@ -121,7 +121,7 @@ export async function imagenDelPodio({ scores, winner, mvpDe = () => [], tema = 
   ctx.fillStyle = "#FFFFFF12"; redondeado(ctx, 60, 1140, W - 120, 160, 32); ctx.fill();
   ctx.strokeStyle = "#FFFFFF26"; ctx.lineWidth = 2; redondeado(ctx, 60, 1140, W - 120, 160, 32); ctx.stroke();
   textoConIcono(ctx, "mic", T.texto[1], "¡Juega Musical Showdown!", W / 2, 1205, { tam: 44, fuente: "Inter", peso: 800, color: N.texto });
-  texto(ctx, SIN_ENLACE ? lineaDeDescarga("") : `Descárgalo gratis: ${tiendaActual()?.corto || "github.com/maxy26/Musical-showdown"}`, W / 2, 1262, { tam: 28, fuente: "Inter", peso: 600, color: fino, ancho: 900 });
+  texto(ctx, SIN_ENLACE ? lineaDeDescarga("") : `Descárgalo gratis: ${tiendaActual()?.corto || "github.com/mikeruiz64/Musical-showdown"}`, W / 2, 1262, { tam: 28, fuente: "Inter", peso: 600, color: fino, ancho: 900 });
   const blob = await new Promise((ok) => cv.toBlob(ok, "image/png"));
   return { blob, url: window.URL.createObjectURL(blob) };
 }

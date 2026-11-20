@@ -10,14 +10,14 @@ import { textoQR, leerQR, armarEstado, nuevoCodigo, codigoLegible, limpiarCodigo
 test("el QR de la PC es un enlace (lo abre la cámara del celular) y se lee igual en el juego", () => {
   const datos = { ips: ["192.168.1.5", "10.0.0.3"], puerto: 47821, codigo: "042713" };
   const qr = textoQR(datos);
-  assert.ok(qr.startsWith("https://maxy26.github.io/Musical-showdown/vincular/?"), "la dirección del AndroidManifest");
+  assert.ok(qr.startsWith("https://mikeruiz64.github.io/Musical-showdown/vincular/?"), "la dirección del AndroidManifest");
   assert.deepEqual(leerQR(qr), datos);
 });
 
 test("un QR que no es de Musical Showdown (o está incompleto) no sirve", () => {
   assert.equal(leerQR("https://www.youtube.com"), null);
-  assert.equal(leerQR("https://maxy26.github.io/Musical-showdown/vincular/?ips=&p=47821&c=123456"), null);
-  assert.equal(leerQR("https://maxy26.github.io/Musical-showdown/vincular/?ips=192.168.1.5&p=47821&c=1234"), null);
+  assert.equal(leerQR("https://mikeruiz64.github.io/Musical-showdown/vincular/?ips=&p=47821&c=123456"), null);
+  assert.equal(leerQR("https://mikeruiz64.github.io/Musical-showdown/vincular/?ips=192.168.1.5&p=47821&c=1234"), null);
   assert.equal(leerQR(""), null);
 });
 

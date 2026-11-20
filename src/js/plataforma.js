@@ -69,7 +69,7 @@ export function salirDeLaApp() {
  */
 export function paginaLegal(parte = "", idioma = typeof navigator !== "undefined" ? navigator.language : "es") {
   const carpeta = /^es/i.test(idioma || "es") ? "privacidad" : "privacy";
-  return `https://maxy26.github.io/Musical-showdown/${carpeta}/${parte ? "#" + parte : ""}`;
+  return `https://mikeruiz64.github.io/Musical-showdown/${carpeta}/${parte ? "#" + parte : ""}`;
 }
 
 /**
