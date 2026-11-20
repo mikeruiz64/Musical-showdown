@@ -12,6 +12,21 @@
 
 ---
 
+## 2026-11-20 — Cierre del cambio de usuario: cuenta maxy26 reservada y Play Console revisada
+
+**Qué se hizo:** el usuario creó la cuenta gratis `maxy26` (vacía) para que nadie tome el nombre viejo. Play Console:
+no hay nada que cambiar, porque la app no está publicada en Google Play ni en la Microsoft Store y los documentos de
+tiendas ya tienen la dirección nueva de privacidad. Los tres pendientes del usuario quedaron cerrados.
+
+**Archivos:** `PENDIENTES.md`, `AUDITORIA-CAMBIOS.md`.
+
+**Verificación:** `api.github.com/users/maxy26` existe con 0 repositorios públicos; `api.github.com/repos/maxy26/Musical-showdown`
+sigue redirigiendo (301) al repositorio nuevo. Fichas de Google Play y Microsoft Store: 404.
+
+**Abierto:** nada del cambio de usuario.
+
+---
+
 ## 2026-11-20 — assetlinks.json publicado en mikeruiz64.github.io
 
 **Qué se hizo:** el usuario creó el repositorio público `mikeruiz64.github.io` y se le subió

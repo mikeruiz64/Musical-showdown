@@ -325,14 +325,17 @@ cambio, se aplica a las tres apps y se pasa a la siguiente.
 
 (Nada por ahora.)
 
-## 👤 Lo que tiene que hacer el usuario: cambio de usuario de GitHub (19-11-2026) 🔴
+## 👤 Lo que tiene que hacer el usuario: cambio de usuario de GitHub (19-11-2026) ✅
 
 > Viene de la tarea de la versión 1.33 (cambio de `maxy26` a `mikeruiz64`). La 1.33 ya está publicada con las direcciones nuevas.
 
-- [ ] **Google Play Console:** si ya se cargó la URL de privacidad, cambiarla a
-  `https://mikeruiz64.github.io/Musical-showdown/privacidad/` (y la de términos, `.../privacidad/#parte-2`).
-- [ ] **Proteger `maxy26`:** crear una segunda cuenta gratis de GitHub con el usuario `maxy26` y dejarla vacía, para que
-  nadie pueda suplantar los avisos de versión de las 1.32 que siguen instaladas (leen `api.github.com/repos/maxy26/...`).
+- [x] **Google Play Console** (20-11-2026): nada que cambiar. La app no está publicada en Google Play ni en la
+  Microsoft Store (sus fichas dan 404) y `GOOGLE-PLAY.md` / `TIENDAS.md` ya tienen
+  `https://mikeruiz64.github.io/Musical-showdown/privacidad/` (términos: `.../privacidad/#parte-2`): usar esa al llenar
+  los formularios. Si había un borrador con la dirección vieja, cambiarla ahí.
+- [x] **Proteger `maxy26`** (20-11-2026): el usuario creó la cuenta gratis `maxy26` y la dejó vacía (0 repositorios),
+  así nadie puede suplantar los avisos de versión de las 1.32 instaladas (leen `api.github.com/repos/maxy26/...`).
+  No crear un repositorio `Musical-showdown` en esa cuenta: cortaría la redirección al repositorio nuevo.
 - [x] **Enlace que abre la app (App Links)** (20-11-2026): el usuario creó el repositorio público
   **`mikeruiz64.github.io`** y se subió `.well-known/assetlinks.json` (copia de `docs/assetlinks.json`) con `.nojekyll`
   (si no, GitHub Pages no publica carpetas que empiezan con punto). El verificador de Google
