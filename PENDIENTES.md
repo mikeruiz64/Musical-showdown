@@ -336,7 +336,7 @@ cambio, se aplica a las tres apps y se pasa a la siguiente.
 - [x] **Enlace que abre la app (App Links)** (20-11-2026): el usuario creó el repositorio público
   **`mikeruiz64.github.io`** y se subió `.well-known/assetlinks.json` (copia de `docs/assetlinks.json`) con `.nojekyll`
   (si no, GitHub Pages no publica carpetas que empiezan con punto). El verificador de Google
-  (`digitalassetlinks.googleapis.com`) ya lo lee con la huella de la clave del proyecto.
+  (`digitalassetlinks.googleapis.com`) ya lo lee con la huella de la clave del proyecto. Probado por el usuario en su celular con la 1.33: la cámara abre la app con el QR.
 
 ## 🎵 Canciones y letras (antes de publicar)
 

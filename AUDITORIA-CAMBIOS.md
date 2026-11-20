@@ -25,7 +25,7 @@ que empiezan con punto). Así Android puede abrir el enlace de Vincular directo 
 **Verificación:** `https://mikeruiz64.github.io/.well-known/assetlinks.json` responde 200 y el verificador de Google
 (`digitalassetlinks.googleapis.com`) lo lee con el paquete `com.musicalshowdown.app` y la huella `E0:E0:A0:2F…`.
 
-**Abierto:** probar en un celular con la 1.33 que la cámara abra la app con el QR; Play Console y cuenta `maxy26`.
+**Abierto:** Play Console y cuenta `maxy26`. (Después: el usuario probó en su celular con la 1.33 que la cámara abre la app con el QR.)
 
 ---
 
