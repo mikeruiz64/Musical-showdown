@@ -321,9 +321,21 @@ cambio, se aplica a las tres apps y se pasa a la siguiente.
 ## 📦 Listo para la próxima versión (sin publicar)
 
 > Cambios terminados que se juntan para sacar una actualización notable
-> (instrucción 28). Al publicar, vaciar esta lista. Última versión: **1.32** (31-10-2026: logo nuevo y pantalla de carga con el logo; ver AUDITORIA-CAMBIOS.md).
+> (instrucción 28). Al publicar, vaciar esta lista. Última versión: **1.33** (19-11-2026: direcciones al nuevo usuario de GitHub `mikeruiz64`; ver AUDITORIA-CAMBIOS.md).
 
 (Nada por ahora.)
+
+## 👤 Lo que tiene que hacer el usuario: cambio de usuario de GitHub (19-11-2026) 🔴
+
+> Viene de la tarea de la versión 1.33 (cambio de `maxy26` a `mikeruiz64`). La 1.33 ya está publicada con las direcciones nuevas.
+
+- [ ] **Google Play Console:** si ya se cargó la URL de privacidad, cambiarla a
+  `https://mikeruiz64.github.io/Musical-showdown/privacidad/` (y la de términos, `.../privacidad/#parte-2`).
+- [ ] **Proteger `maxy26`:** crear una segunda cuenta gratis de GitHub con el usuario `maxy26` y dejarla vacía, para que
+  nadie pueda suplantar los avisos de versión de las 1.32 que siguen instaladas (leen `api.github.com/repos/maxy26/...`).
+- [ ] **Enlace que abre la app (App Links):** crear el repositorio público **`mikeruiz64.github.io`** con
+  `.well-known/assetlinks.json` (copia de `docs/assetlinks.json`). Se crea con el OK del usuario; detalle en la
+  tarea del QR de «Diseño / implementación pendiente».
 
 ## 🎵 Canciones y letras (antes de publicar)
 
@@ -716,7 +728,7 @@ cambio, se aplica a las tres apps y se pasa a la siguiente.
     1. Activar **GitHub Pages** en el repositorio (Settings → Pages → rama
        `main`, carpeta `/docs`): así, sin la app instalada, se abre la página
        que lleva a descargarla.
-    2. Crear el repositorio público **`maxy26.github.io`** con el archivo
+    2. Crear el repositorio público **`mikeruiz64.github.io`** con el archivo
        `.well-known/assetlinks.json` (copia de `docs/assetlinks.json`, con la
        huella de la clave del proyecto). Sin él, Android abre el enlace en el
        navegador en vez de la app. Funciona sin internet una vez que Android

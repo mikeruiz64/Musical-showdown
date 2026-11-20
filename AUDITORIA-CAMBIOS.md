@@ -12,6 +12,40 @@
 
 ---
 
+## 2026-11-19 — Versión 1.33 publicada: direcciones a mikeruiz64
+
+**Qué se hizo:** el usuario dijo «publica». `npm run android:release` (versionCode 33 → 34, versionName 1.33; firma
+SHA-256 `e0e0a02f…f5d730`, la de siempre), `build:desktop` y `build:personal` recompilados. Los pendientes del usuario
+(Play Console, proteger `maxy26`, repositorio `mikeruiz64.github.io`) pasaron a `PENDIENTES.md`; se borró
+`TAREA-v1.33-cambio-usuario-github.md` (ya hecho todo lo demás).
+
+**Archivos:** `platforms/android/android/app/build.gradle`, `ESTADO.md`, `PENDIENTES.md`, `AUDITORIA-CAMBIOS.md`.
+
+**Verificación:** `aapt` confirma 1.33 / 34; etiqueta `v1.33` y Release de GitHub Actions (ver abajo).
+
+**Abierto:** los tres pendientes del usuario en `PENDIENTES.md` («Lo que tiene que hacer el usuario»).
+
+---
+
+## 2026-11-19 — v1.33 en preparación: repaso del cambio a mikeruiz64 y compilación de prueba
+
+**Qué se hizo:** remoto `origin` apuntado a `mikeruiz64/Musical-showdown` y `git pull` (trae `e9ab529`). Revisión de
+`maxy26`: se cambió la tarea del QR en `PENDIENTES.md` (crear `mikeruiz64.github.io`) y las dos menciones de vincular en
+`CLAUDE.md`; lo demás es registro histórico (auditoría, historial de pendientes, permisos viejos de
+`.claude/settings.local.json`). `build/`, `tiendas/` y la configuración de compilación no tenían el usuario viejo.
+Anotado en «Listo para la próxima versión».
+
+**Archivos:** `PENDIENTES.md`, `CLAUDE.md`, `AUDITORIA-CAMBIOS.md`.
+
+**Verificación:** las páginas `privacidad/`, `privacy/` y `vincular/` de `mikeruiz64.github.io/Musical-showdown/`
+responden 200. `npm test` 177/177, lint sin errores. Compilados `build:desktop`, `build:apk` y `build:personal`; el
+bundle no contiene `maxy26`.
+
+**Abierto:** que el usuario pruebe el `.exe` (Ajustes → privacidad/términos, QR de Vincular, aviso de versión) y diga
+«publica» para sacar la 1.33.
+
+---
+
 ## 2026-11-19 — Cambio de usuario de GitHub: maxy26 → mikeruiz64
 
 **Qué se hizo:** la cuenta de GitHub pasó de `maxy26` a `mikeruiz64`. GitHub redirige los repos, pero **no** GitHub

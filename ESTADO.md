@@ -8,7 +8,7 @@
 
 Juego de fiesta: sale una palabra y gana quien cante primero una canción que
 la tenga. Se publica como `.exe` de Windows, APK de Android y `.AppImage` de
-Linux en GitHub. **Última versión publicada: 1.32** (31-10-2026: logo nuevo a sangre y pantalla de carga con el logo animado; la 1.31, pantalla completa en la web; la 1.30 puso en una línea el botón de Alternativo 2; la 1.29 trajo la parte 2 de «Escenario nocturno»: pantalla completa, géneros en mosaico, volumen más suave y estilo unificado). Se está
+Linux en GitHub. **Última versión publicada: 1.33** (19-11-2026: direcciones al nuevo usuario de GitHub `mikeruiz64`; la 1.32, logo nuevo a sangre y pantalla de carga con el logo animado; la 1.31, pantalla completa en la web; la 1.30 puso en una línea el botón de Alternativo 2; la 1.29 trajo la parte 2 de «Escenario nocturno»: pantalla completa, géneros en mosaico, volumen más suave y estilo unificado). Se está
 preparando su llegada a las tiendas con un modelo **gratis + Premium**.
 
 ## Qué está hecho
@@ -187,4 +187,4 @@ usuario antes de publicar.
 
 ## Sin subir a GitHub
 
-Nada: todo está en GitHub (versión 1.32). La demo, Premium y los anuncios están en el código, pero todavía no en las tiendas.
+Nada: todo está en GitHub (versión 1.33). La demo, Premium y los anuncios están en el código, pero todavía no en las tiendas.
