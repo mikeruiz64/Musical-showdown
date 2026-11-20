@@ -21,7 +21,7 @@ SHA-256 `e0e0a02f…f5d730`, la de siempre), `build:desktop` y `build:personal` 
 
 **Archivos:** `platforms/android/android/app/build.gradle`, `ESTADO.md`, `PENDIENTES.md`, `AUDITORIA-CAMBIOS.md`.
 
-**Verificación:** `aapt` confirma 1.33 / 34; etiqueta `v1.33` y Release de GitHub Actions (ver abajo).
+**Verificación:** `aapt` confirma 1.33 / 34. Commit `f5f6fea` y etiqueta `v1.33` subidos; GitHub Actions publicó la Release `v1.33` con el APK, el `.exe` y el `.AppImage`.
 
 **Abierto:** los tres pendientes del usuario en `PENDIENTES.md` («Lo que tiene que hacer el usuario»).
 
